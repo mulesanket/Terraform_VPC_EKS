@@ -1,1 +1,29 @@
+# Local Terraform state
+*.tfstate
+*.tfstate.backup
+
+# Terraform crash logs
+crash.log
+
+# Terraform plan output
+*.tfplan
+
+# Terraform variable overrides
+terraform.tfvars
+*.tfvars.json
+
+# .terraform folder (provider plugins & backend config)
 .terraform/
+
+# Ignore environment-specific override files (optional)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore sensitive output captures (optional)
+secret.auto.tfvars
+*.auto.tfvars
+
+# VS Code settings (optional, if using VS Code)
+.vscode/
